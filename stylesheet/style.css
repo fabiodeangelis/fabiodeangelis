@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Alef';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/alef/v5/5jDodXBqLZ_uyhFtHw7V8A.eot');
+  src: url('http://fonts.gstatic.com/s/alef/v5/5jDodXBqLZ_uyhFtHw7V8A.eot?#iefix') format('embedded-opentype'),
+       local('Alef Regular'),
+       local('Alef-regular'),
+       url('http://fonts.gstatic.com/s/alef/v5/VSH48mnkaaFYglCO-SehPvesZW2xOQ-xsNqO47m55DA.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/alef/v5/tZeduU5-mwXNlHG2cx5KCvesZW2xOQ-xsNqO47m55DA.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/alef/v5/gzq6OSepdeZ1VdycsVw6Vg.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=FpiYdJYEktm6aYq7Zf_kvQ#Alef') format('svg');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/lobster/v12/RbZDm27knEncUX6lPsjRBg.eot');
+  src: url('http://fonts.gstatic.com/s/lobster/v12/RbZDm27knEncUX6lPsjRBg.eot?#iefix') format('embedded-opentype'),
+       local('Lobster'),
+       local('Lobster-regular'),
+       url('http://fonts.gstatic.com/s/lobster/v12/G6-OYdAAwU5fSlE7MlBvhQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/lobster/v12/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/lobster/v12/TSDaXhyJuDJ-NBU0popSWA.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=j6oWj_2FuMvwWoXYXnyDeA#Lobster') format('svg');
+}
+
+
+/* following three classes allow vertical centering*/
+/*
+HTML {
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+ */
+HTML, BODY  {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif,Verdana;
+    height: 100%;
+    margin: 0px;
+    border:0;
+    padding:0;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    border:0;
+    padding:0;
+    background-color: #FFFFFF;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border:0;
+    padding:0;
+    background-color: #FFFFFF;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+H1 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #006600;
+    letter-spacing: 1.4px;
+    border-bottom: solid 1px #006600;
+    text-transform: uppercase;
+}
+
+H2 {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    color: #009900;
+}
+
+P, BLOCKQUOTE {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #555555;
+    line-height: 1.5;
+    letter-spacing: .25px;
+}
+
+BLOCKQUOTE {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #444444;
+    letter-spacing: 1.25px;
+    line-height: 1.5;
+    background: #EEEEEE;
+    padding: 5px;
+    margin: auto 15px;
+}
+
+A {
+    color: #008800;
+}
+
+a, a:active, a:focus, a:hover, a:link a:visited {
+    color: green;
+    text-decoration: none;
+    border-style: none;
+}
+
+ABBR {
+    border-bottom: dotted 1px #006600;
+}
+
+.scalable {
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.scalable:hover {
+    color: #55AA00;
+}
+
+.title-font {
+    font-family: 'Lobster', Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 1.4px;
+    /*border-bottom: solid 1px #006600;
+    text-transform: uppercase;*/
+}
+
+.body-font {
+    font-family: Verdana;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    text-align: left;
+}
+
+.float-container {
+
+    position: relative;
+    float: left;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    /*background-color: pink;*/
+}
+
+
+/* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img { max-width: 100%; }
+
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        border:0;
+        padding:0;
+        background-color: #FFFFFF;
+    }
+
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    img { max-width: 100%; }
+}
+.img-circle {
+   border-radius: 20%;
+}
