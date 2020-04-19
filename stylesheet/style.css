@@ -133,6 +133,7 @@ a, a:active, a:focus, a:hover, a:link a:visited {
     color: green;
     text-decoration: none;
     border-style: none;
+    margin-top: 10px;
 }
 
 ABBR {
