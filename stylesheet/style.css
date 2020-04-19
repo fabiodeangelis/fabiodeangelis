@@ -149,7 +149,7 @@ ABBR {
 }
 
 .title-font {
-    font-family: Lobster, Georgia, serif;
+    font-family: 'Lobster', Georgia, serif;
     font-size: 40px;
     font-weight: bold;
     color: #000000;
@@ -160,7 +160,7 @@ ABBR {
 
 .body-font {
     font-family: Verdana;
-    font-size: 15px;
+    font-size: 20px;
     color: #555555;
     line-height: 1.5;
     letter-spacing: .25px;
@@ -170,7 +170,7 @@ ABBR {
 .float-container {
 
     position: relative;
-    float: left;
+    float: center;
     height: auto;
     width: auto;
     margin: 10px;
