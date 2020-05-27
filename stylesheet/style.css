@@ -132,7 +132,7 @@ A {
 
 a, a:active, a:focus, a:hover, a:link a:visited {
     font-family: Verdana;
-    font-size: 10px;
+    font-size: 15px;
     color: green;
     text-decoration: none;
     border-style: none;
