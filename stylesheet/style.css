@@ -41,7 +41,7 @@ HTML {
 HTML, BODY  {
     background-color: #ffffff;
     text-align: center;
-    font-family: "Arial", Helvetica, sans-serif,Verdana;
+    font-family: "Arial", Helvetica, sans-serif, Verdana;
     height: 100%;
     margin: 0px;
     border:0;
@@ -158,7 +158,7 @@ ABBR {
 }
 
 .title-font {
-    font-family: 'Lobster', Georgia, serif;
+    font-family: 'Alef', Georgia, serif;
     font-size: 50px;
     font-weight: bold;
     color: #000000;
