@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: 'Alef';
   font-weight: 400;
@@ -25,6 +26,7 @@
        url('http://fonts.gstatic.com/s/lobster/v12/TSDaXhyJuDJ-NBU0popSWA.ttf') format('truetype'),
        url('http://fonts.gstatic.com/l/font?kit=j6oWj_2FuMvwWoXYXnyDeA#Lobster') format('svg');
 }
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
@@ -39,6 +41,7 @@ HTML {
     display: none;
 }
  */
+ 
 HTML, BODY  {
     background-color: #ffffff;
     text-align: center;
@@ -159,7 +162,7 @@ ABBR {
 }
 
 .title-font {
-    font-family: 'Lobster', Georgia;
+    font-family: 'Lobster';
     font-size: 50px;
     font-weight: bold;
     color: #000000;
