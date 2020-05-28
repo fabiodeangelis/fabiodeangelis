@@ -26,6 +26,7 @@
        url('http://fonts.gstatic.com/l/font?kit=j6oWj_2FuMvwWoXYXnyDeA#Lobster') format('svg');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 /* following three classes allow vertical centering*/
 /*
@@ -158,7 +159,7 @@ ABBR {
 }
 
 .title-font {
-    font-family: 'Alef', Georgia, serif;
+    font-family: 'Lobster', Georgia;
     font-size: 50px;
     font-weight: bold;
     color: #000000;
@@ -191,7 +192,7 @@ ABBR {
     /*background-color: #FFA0FF;*/
     margin: auto;
     margin-top: 10px;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 
