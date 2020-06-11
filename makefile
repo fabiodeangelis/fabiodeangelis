@@ -1,5 +1,5 @@
 
-# usage:     make git m="your message"
+# usage:     make git m="your message "
 
 git:
 	git add .
