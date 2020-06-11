@@ -28,7 +28,7 @@ HTML {
 HTML, BODY  {
     background-color: #ffffff;
     text-align: center;
-    font-family: 'Roboto', sans-serif, Verdana;
+    font-family: 'Roboto', Verdana, sans-serif;
     height: 100%;
     margin: 0px;
     border:0;
@@ -124,7 +124,7 @@ a, a:active, a:focus, a:hover, a:link a:visited {
 }
 
 i::first-letter {
-	font-size: 25px;
+	font-size: 55px;
 }
 
 ABBR {
@@ -151,7 +151,7 @@ ABBR {
 }
 
 .body-font {
-    font-family: Verdana;
+    font-family: ''Roboto', Verdana, sans-serif;
     font-size: 20px;
     color: #555555;
     line-height: 1.5;

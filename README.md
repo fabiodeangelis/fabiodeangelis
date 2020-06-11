@@ -37,3 +37,39 @@ more info about the possible browser.cache.check_doc_frequency  settings:
 1 - always check for newer version
 0 - check for newer version once per session
 
+
+
+
+
+
+
+
+/*
+@font-face {
+  font-family: 'Alef';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/alef/v5/5jDodXBqLZ_uyhFtHw7V8A.eot');
+  src: url('http://fonts.gstatic.com/s/alef/v5/5jDodXBqLZ_uyhFtHw7V8A.eot?#iefix') format('embedded-opentype'),
+       local('Alef Regular'),
+       local('tZeduU5-mwXNlHG2cx5KCvesZW2xOQ-xsNqO47m55DA.woff'),
+       url('http://fonts.gstatic.com/s/alef/v5/VSH48mnkaaFYglCO-SehPvesZW2xOQ-xsNqO47m55DA.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/alef/v5/tZeduU5-mwXNlHG2cx5KCvesZW2xOQ-xsNqO47m55DA.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/alef/v5/gzq6OSepdeZ1VdycsVw6Vg.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=FpiYdJYEktm6aYq7Zf_kvQ#Alef') format('svg');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/lobster/v12/RbZDm27knEncUX6lPsjRBg.eot');
+  src: url('http://fonts.gstatic.com/s/lobster/v12/RbZDm27knEncUX6lPsjRBg.eot?#iefix') format('embedded-opentype'),
+       local('Lobster'),
+       local('Lobster-regular'),
+       url('http://fonts.gstatic.com/s/lobster/v12/G6-OYdAAwU5fSlE7MlBvhQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/lobster/v12/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/lobster/v12/TSDaXhyJuDJ-NBU0popSWA.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=j6oWj_2FuMvwWoXYXnyDeA#Lobster') format('svg');
+}
+*/
